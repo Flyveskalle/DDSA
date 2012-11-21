@@ -51,17 +51,21 @@
     <Reference Include="System.Web.ApplicationServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="masterpages\Frontpage.Master.cs">
+      <DependentUpon>Frontpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpages\Frontpage.Master.designer.cs">
+      <DependentUpon>Frontpage.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
     <Folder Include="App_Plugins\" />
-    <Folder Include="css\" />
     <Folder Include="macroScripts\" />
-    <Folder Include="masterpages\" />
     <Folder Include="media\" />
-    <Folder Include="scripts\" />
     <Folder Include="usercontrols\" />
     <Folder Include="xslt\" />
   </ItemGroup>
@@ -90,7 +94,14 @@
     <Content Include="config\umbracoSettings.config" />
     <Content Include="config\UrlRewriting.config" />
     <Content Include="config\xsltExtensions.config" />
+    <Content Include="css\print.css" />
+    <Content Include="css\screen.css" />
+    <Content Include="masterpages\Frontpage.Master" />
     <None Include="Umbraco\dashboard\air\DesktopMediaUploader.air" />
+    <Content Include="CountDown.htm" />
+    <Content Include="Images\WebGraphics\Countdown\digits.png" />
+    <Content Include="scripts\jquery-1.8.3.js" />
+    <Content Include="TheeImageHover.htm" />
     <Content Include="Umbraco\masterpages\default.Master" />
     <Content Include="Umbraco\masterpages\umbracoDialog.Master" />
     <Content Include="Umbraco\masterpages\umbracoPage.Master" />
