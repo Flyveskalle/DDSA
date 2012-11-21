@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDSA.Web", "DDSA.Web\DDSA.Web.csproj", "{60654413-04FB-4765-9809-56188A2B1BAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDSA.Backend", "DDSA.Backend\DDSA.Backend.csproj", "{FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60654413-04FB-4765-9809-56188A2B1BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60654413-04FB-4765-9809-56188A2B1BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60654413-04FB-4765-9809-56188A2B1BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60654413-04FB-4765-9809-56188A2B1BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
