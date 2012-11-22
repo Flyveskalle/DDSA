@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08" ModuleId="DDSA.Backend" />
+  <Module PersistentId="60654413-04FB-4765-9809-56188A2B1BAA" ModuleId="DDSA.Web" />
+  <Module PersistentId="cms, Version=1.0.4695.30696, Culture=neutral" ModuleId="cms" />
+</Modules>

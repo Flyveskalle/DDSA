@@ -19,11 +19,17 @@ namespace DDSA.Backend.Business.DocTypes
         [DocumentTypeProperty(UmbracoPropertyType.RichtextEditor, Name = "Beskrivelse", Tab = CmsTabs.Indhold)]
         public string Description { get; set; }
 
+        [DocumentTypeProperty(UmbracoPropertyType.TrueFalse, Name = "Forhåndsfavorit", Tab = CmsTabs.Indhold, DefaultValue = false)]
+        public string Favorites { get; set; }
+
         [DocumentTypeProperty(UmbracoPropertyType.RelatedLinks, Name = "Relaterede links", Tab = CmsTabs.Indhold)]
         public string RelatedLinks { get; set; }
 
         [DocumentTypeProperty(UmbracoPropertyType.Textstring, Name = "Youtube kanal",Description = "Link til Youtube kanal", Tab = CmsTabs.Indhold)]
         public string YoutubeChannel { get; set; }
+
+        [DocumentTypeProperty(UmbracoPropertyType.MediaPicker, Name = "Mediamappe", Description = "Link mediamappen", Tab = CmsTabs.Indhold)]
+        public string MediaFolderNodeId { get; set; }
 
 
 

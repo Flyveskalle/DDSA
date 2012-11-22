@@ -1,0 +1,47 @@
+R# version: 5.1.1753.4
+assembly cms, Version=1.0.4695.30696, Culture=neutral
+  file C:\Projects\DDSA\DDSA\ExternalDependencies\Umbraco4.10\cms.dll mtime 21-11-2012 19:12:07
+  file C:\Projects\DDSA\DDSA\DDSA.Web\Bin\cms.dll mtime 21-11-2012 19:12:07
+referenced assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll mtime 10-02-2011 02:10:40
+referenced assembly interfaces, Version=1.0.4695.30695, Culture=neutral
+  file C:\Projects\DDSA\DDSA\ExternalDependencies\Umbraco4.10\interfaces.dll mtime 21-11-2012 19:12:07
+  file C:\Projects\DDSA\DDSA\DDSA.Web\Bin\interfaces.dll mtime 21-11-2012 19:12:07
+referenced assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.dll mtime 18-03-2010 17:31:26
+referenced assembly businesslogic, Version=1.0.4695.30695, Culture=neutral
+  file C:\Projects\DDSA\DDSA\ExternalDependencies\Umbraco4.10\businesslogic.dll mtime 21-11-2012 19:12:07
+  file C:\Projects\DDSA\DDSA\DDSA.Web\Bin\businesslogic.dll mtime 21-11-2012 19:12:07
+referenced assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll mtime 18-03-2010 17:31:26
+referenced assembly System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.ApplicationServices.dll mtime 18-03-2010 17:31:26
+referenced assembly System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.Services.dll mtime 18-03-2010 17:31:26
+referenced assembly umbraco.DataLayer, Version=1.0.4695.30695, Culture=neutral
+  file C:\Projects\DDSA\DDSA\DDSA.Web\Bin\umbraco.DataLayer.dll mtime 21-11-2012 19:12:07
+referenced assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll mtime 18-03-2010 17:31:26
+referenced assembly Umbraco.Core, Version=1.0.4695.30695, Culture=neutral
+  file C:\Projects\DDSA\DDSA\ExternalDependencies\Umbraco4.10\Umbraco.Core.dll mtime 21-11-2012 19:12:07
+  file C:\Projects\DDSA\DDSA\DDSA.Web\Bin\Umbraco.Core.dll mtime 21-11-2012 19:12:07
+referenced assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll mtime 18-03-2010 17:31:26
+referenced assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll mtime 18-03-2010 17:31:26
+referenced assembly ClientDependency.Core, Version=1.5.1.0, Culture=neutral
+  file C:\Projects\DDSA\DDSA\DDSA.Web\Bin\ClientDependency.Core.dll mtime 21-11-2012 19:12:07
+referenced assembly HtmlAgilityPack, Version=1.4.5.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a
+  file C:\Projects\DDSA\DDSA\DDSA.Web\Bin\HtmlAgilityPack.dll mtime 21-11-2012 19:12:07
+referenced assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll mtime 18-03-2010 17:31:26
+referenced assembly ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73
+  file C:\Projects\DDSA\DDSA\DDSA.Web\Bin\ICSharpCode.SharpZipLib.dll mtime 21-11-2012 19:12:07
+referenced assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll mtime 10-02-2011 02:10:40
+referenced assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Configuration.dll mtime 18-03-2010 17:31:26
+referenced assembly TidyNet, Version=1.0.0.0, Culture=neutral
+  file C:\Projects\DDSA\DDSA\DDSA.Web\Bin\TidyNet.dll mtime 21-11-2012 19:12:07
+referenced assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll mtime 10-02-2011 02:10:40

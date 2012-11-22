@@ -37,19 +37,18 @@
     <Reference Include="cms">
       <HintPath>..\ExternalDependencies\Umbraco4.10\cms.dll</HintPath>
     </Reference>
+    <Reference Include="interfaces">
+      <HintPath>..\ExternalDependencies\Umbraco4.10\interfaces.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="uComponents.Core">
-      <HintPath>..\ExternalDependencies\uComponents\uComponents.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="uComponents.Legacy">
-      <HintPath>..\ExternalDependencies\uComponents\uComponents.Legacy.dll</HintPath>
-    </Reference>
     <Reference Include="umbraco">
       <HintPath>..\ExternalDependencies\Umbraco4.10\umbraco.dll</HintPath>
     </Reference>
@@ -62,9 +61,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Business\DocTypes\BasePageType.cs" />
+    <Compile Include="Business\DocTypes\CategoryDocType.cs" />
     <Compile Include="Business\DocTypes\CategoryListDocType.cs" />
+    <Compile Include="Business\DocTypes\FolderDocType.cs" />
     <Compile Include="Business\DocTypes\FrontpageDocType.cs" />
+    <Compile Include="Business\DocTypes\MediaDocType.cs" />
     <Compile Include="Business\DocTypes\NominiesDocType.cs" />
+    <Compile Include="Business\DocTypes\NominiesListDocType.cs" />
     <Compile Include="Business\DocTypes\SettingsPageDocType.cs" />
     <Compile Include="Business\DocTypes\TextPageDoctType.cs" />
     <Compile Include="Business\DualShockManager.cs" />

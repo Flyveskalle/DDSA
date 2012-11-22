@@ -8,8 +8,10 @@ namespace DDSA.Backend.Business.Tabs
     public enum CmsTabs
     {
         Indhold = 0,
+        Media = 5,
         Konfiguration = 10,
-        SEO = 100,
+        Email = 20,
+        SEO = 100
         
     }
 }
