@@ -1,0 +1,181 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>jQuery UI Droppable - Default functionality</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+    <!--<link rel="stylesheet" href="/resources/demos/style.css" />-->
+    <style>
+        #newslist
+        {
+            width: 300px;
+            height: 600px;
+            float: left;
+            border: 1px solid black;
+        }
+        #newsletter
+        {
+            width: 300px;
+            height: 600px;
+            float: right;
+            border: 1px solid black;
+        }
+        .first, .second, .third
+        {
+            width: 250px;
+            min-height: 30px;
+            float: left;
+            border: 1px solid gray;
+            margin: 2px;
+        }
+        .flytmig
+        {
+            width: 230px;
+            height: 140px;
+            float: left;
+            border: 1px solid red;
+            cursor: pointer;
+        }
+        #newsletter .flytmig
+        {
+            width: 230px;
+            height: 140px;
+            float: left;
+            border: 1px solid blue;
+            cursor: pointer;
+        }
+        #newslist .flytmig .header
+        {
+            height: 15px;
+            width: 100%;
+            background-color: Black;
+            display: none;
+        }
+        #newsletter .flytmig .header
+        {
+            height: 15px;
+            width: 100%;
+            background-color: Black;
+            display: block;
+        }
+        
+        
+        #selectable .ui-selecting
+        {
+            background: #FECA40;
+        }
+        #selectable .ui-selected
+        {
+            background: #F39814;
+            color: white;
+        }
+    </style>
+    <script type="text/javascript" language="javascript">
+
+        $(function () {
+            x = e.pageX;
+            y = e.pageY;
+            $("#d").dialog({
+                autoOpen: false,
+                show: "blind",
+                hide: "explode",
+                height:100,
+                width:150,
+                position: [e.pageX+5, (e.pageY+5)-$(document).scrollTop()]
+            });
+        });
+            $(".header").hover(function () {
+                $("#d").dialog('open');
+                });
+
+        $(function () {
+            $(".flytmig").dblclick(function () {
+                $(this).insertAfter('.first-inner');
+            });
+        });
+
+        $(document).ready(function () {
+            var x;
+            var y;
+            $(document).mousemove(function (e) {
+                x = e.pageX;
+                y = e.pageY;
+            });
+            $('#newsletter .flytmig').selectable({
+                selected: function (event, ui) { console.log(ui); },
+                stop: function () {
+                    console.log($("#newsletter .flytmig").index(this));
+                }
+            });
+        });
+            
+            
+
+
+            function ulla() {
+                $('#newsletter .flytmig').each(function (index, elm) {
+                    var id = $(elm).find('newsId');
+                    console.log($(elm).find(':hidden').val());
+                    console.log(index);
+                });
+
+            };
+
+//        $(function () {
+//            $(".flytmig").draggable();
+
+//            $(".first, .second, .third").droppable({
+//                hoverClass: "hejsa",
+//               
+//                drop: function (event, ui) {
+//                    //   $(".first, .second, .third").find('.draggable').removeClass('draggable').addClass("news");
+//                    console.log($(ui.draggable));
+//                    $(ui.draggable).removeClass('flytmig').removeClass('ui-draggable').addClass('news');
+//                }
+//            });
+
+            //$(this).addClass("highlight").find("p").html("Dropped!");
+            //$(".first, .second, .third").find('.draggable').removeClass('draggable').addClass("news");
+
+        
+
+    </script>
+</head>
+<body>
+    <div id="d">
+        Vælg stil
+    </div>
+    <div id="newslist">
+        <div class="flytmig">
+            <div class="header">
+            </div>
+            <p>
+                Drag me to my target 1045</p>
+            <input type="hidden" id="newsId" value="1045" />
+        </div>
+        <div class="flytmig">
+            <p>
+                Drag me to my target 1047</p>
+            <input type="hidden" id="Hidden1" value="1047" />
+        </div>
+        <div class="flytmig">
+            <p>
+                Drag me to my target 1049</p>
+            <input type="hidden" id="Hidden2" value="1049" />
+        </div>
+    </div>
+    <div id="newsletter">
+        <div class="first">
+            <div class="first-inner">
+            </div>
+        </div>
+        <div class="second">
+        </div>
+        <div class="third">
+        </div>
+    </div>
+    <input type="button" title="hej" onclick="javascript:ulla()" />
+</body>
+</html>
