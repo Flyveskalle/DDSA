@@ -60,12 +60,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\DataObjects\NewsletterItem.cs" />
+    <Compile Include="Business\DataObjects\NewsletterType.cs" />
     <Compile Include="Business\DocTypes\BasePageType.cs" />
     <Compile Include="Business\DocTypes\CategoryDocType.cs" />
     <Compile Include="Business\DocTypes\CategoryListDocType.cs" />
     <Compile Include="Business\DocTypes\FolderDocType.cs" />
     <Compile Include="Business\DocTypes\FrontpageDocType.cs" />
     <Compile Include="Business\DocTypes\MediaDocType.cs" />
+    <Compile Include="Business\DocTypes\NewsletterDocType.cs" />
     <Compile Include="Business\DocTypes\NominiesDocType.cs" />
     <Compile Include="Business\DocTypes\NominiesListDocType.cs" />
     <Compile Include="Business\DocTypes\SettingsPageDocType.cs" />

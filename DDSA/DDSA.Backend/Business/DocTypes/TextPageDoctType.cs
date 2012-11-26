@@ -21,5 +21,16 @@ namespace DDSA.Backend.Business.DocTypes
 
         [DocumentTypeProperty(UmbracoPropertyType.RelatedLinks, Name = "Relaterede links", Tab = CmsTabs.Indhold)]
         public string RelatedLinks { get; set; }
+
+        public string ImageUrl
+        {
+            get
+            {
+                if(!string.IsNullOrEmpty(ImageUpload)){}
+                //DualShockManager.GetImageUrlFromId()
+                return "";
+            }
+
+        }
     }
 }

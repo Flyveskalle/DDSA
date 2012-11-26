@@ -1,181 +1,328 @@
-﻿<!doctype html>
+﻿
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>jQuery UI Droppable - Default functionality</title>
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
-    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
-    <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
-    <!--<link rel="stylesheet" href="/resources/demos/style.css" />-->
+    <meta charset="utf-8">
+    <title>jQuery UI Sortable - Drop placeholder</title>
+    <link href="scripts/ui-lightness/jquery-ui-1.9.1.custom.css" rel="stylesheet" type="text/css" />
+    <script src="scripts/jquery-1.8.3.js" type="text/javascript"></script>
+    <script src="scripts/jquery-ui-1.9.1.custom.js" type="text/javascript"></script>
     <style>
-        #newslist
+        
+        body {margin:0;
+              padding:0;    }
+        #settings
         {
-            width: 300px;
-            height: 600px;
+            width: 100px;
+            min-height: 300px;
+            padding: 2px;
+            margin-left: 20px;
+            background-color: #E6E6DC;
             float: left;
-            border: 1px solid black;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
         }
+        
+        #settings .button
+        {
+            width: 94px;
+            height: 70px;
+            margin: 3px;
+        }
+        
+        #sortable, #banners
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 500px;
+        }
+        
+        #sortable li, #banners li
+        {
+            margin: 0 5px 5px 5px;
+            padding: 5px;
+            font-size: 1.2em;
+            height: 150px;
+        }
+        
+        html > body #sortable li, #newsletter li .news, #banners li .news
+        {
+            height: 150px;
+            line-height: 1em;
+            font-family: Verdana;
+            font-size: 15px;
+        }
+        
+        #newsletterConatiner
+        {
+            float: left;
+            min-height: 500px;
+            margin-left: 40px;
+            width: 532px;
+            background-color: #E6e6DC;
+            -moz-box-shadow: 0 0 5px #888;
+            -webkit-box-shadow: 0 0 5px #888;
+            box-shadow: 0 0 5px #888;
+        }
+        
         #newsletter
         {
-            width: 300px;
-            height: 600px;
-            float: right;
+            width: 500px;
+            min-height: 170px;
+            padding: 5px;
+            border: 1px solid #D3D3D3;
+            float: left;
+            margin-left: 10px;
+        }
+        
+        #newsletter li
+        {
+            margin: 0 5px 5px 5px;
+            padding: 5px;
+            font-size: 1.2em;
+            height: 155px;
+            list-style-position: outside;
+            list-style-type: none;
+            background-color: #D3D3D3;
+        }
+        
+        #newsletter li .news, #sortable li .news, #banners li .news
+        {
+            background-color: White;
+        }
+        
+        .ui-state-highlight
+        {
+            height: 150px;
+            line-height: 0.2em;
+        }
+        
+        .news
+        {
+            width: 475px;
+            height: 145px;
             border: 1px solid black;
-        }
-        .first, .second, .third
-        {
-            width: 250px;
-            min-height: 30px;
+            padding: 2px;
             float: left;
-            border: 1px solid gray;
-            margin: 2px;
-        }
-        .flytmig
-        {
-            width: 230px;
-            height: 140px;
-            float: left;
-            border: 1px solid red;
-            cursor: pointer;
-        }
-        #newsletter .flytmig
-        {
-            width: 230px;
-            height: 140px;
-            float: left;
-            border: 1px solid blue;
-            cursor: pointer;
-        }
-        #newslist .flytmig .header
-        {
-            height: 15px;
-            width: 100%;
-            background-color: Black;
-            display: none;
-        }
-        #newsletter .flytmig .header
-        {
-            height: 15px;
-            width: 100%;
-            background-color: Black;
-            display: block;
         }
         
-        
-        #selectable .ui-selecting
+        .news img
         {
-            background: #FECA40;
+            width: 150px;
+            padding-right: 5px;
+            float: left;
         }
-        #selectable .ui-selected
+        
+        .desc
         {
-            background: #F39814;
-            color: white;
+        }
+        
+        .ui-state-highlight
+        {
+            border: 2px solid #fed22f;
+        }
+        
+        .ui-tabs
+        {
+            float: left;
+            height: 700px;
+            width: 540px;
+        }
+        
+        table {margin:auto; padding:auto;}
+        
+        table tr {border: 1px solid gray;}
+
+        
+         table td img  {width:100%; }
+        
+        table td.newsff
+        {
+            width:400px;
+            height:100%;
+            margin-left:10px;
+            padding:2px;
+            
+            
+            }
+            
+            table td.newsff p
+            {
+               line-height:20px;
+               color:Gray;
+                }
+            
+            .newsff span a
+            {
+                color:Red;
+                text-decoration:none;
+                clear:both;
+                }
+        
+        .spacer
+        {
+            width:100%;
+            height:10px;
+            background-color:lightgray;
+            border-top:3px solid white;
+            border-bottom:3px solid white;
+            padding:3px;
         }
     </style>
     <script type="text/javascript" language="javascript">
-
         $(function () {
-            x = e.pageX;
-            y = e.pageY;
-            $("#d").dialog({
-                autoOpen: false,
-                show: "blind",
-                hide: "explode",
-                height:100,
-                width:150,
-                position: [e.pageX+5, (e.pageY+5)-$(document).scrollTop()]
-            });
+            $('#tabs').tabs();
+
+            $("#sortable, #newsletter, #banners").sortable({
+                connectWith: "#newsletter",
+                placeholder: "ui-state-highlight"
+            }).disableSelection();
+
         });
-            $(".header").hover(function () {
-                $("#d").dialog('open');
+
+        function save_list() {
+            $('#newsletter li').each(function (index, elm) {
+
+                if ($(elm).hasClass("newsitem"))
+                { console.log("newsitem"); }
+                
+                    
+
+                $.ajax({
+                    url: '/Webservices/Dashboard/Handler1.ashx',
+                    data: { NewsId: +$(elm).find(':hidden').val(), type: $(elm).hasClass('news') },
+
+                    success: function (response) {
+                        $('#testing').append('<li>' + index + '||' + $(elm).find('strong').html() + '</li>');
+                    }
                 });
 
-        $(function () {
-            $(".flytmig").dblclick(function () {
-                $(this).insertAfter('.first-inner');
+
+
             });
-        });
-
-        $(document).ready(function () {
-            var x;
-            var y;
-            $(document).mousemove(function (e) {
-                x = e.pageX;
-                y = e.pageY;
-            });
-            $('#newsletter .flytmig').selectable({
-                selected: function (event, ui) { console.log(ui); },
-                stop: function () {
-                    console.log($("#newsletter .flytmig").index(this));
-                }
-            });
-        });
-            
-            
-
-
-            function ulla() {
-                $('#newsletter .flytmig').each(function (index, elm) {
-                    var id = $(elm).find('newsId');
-                    console.log($(elm).find(':hidden').val());
-                    console.log(index);
-                });
-
-            };
-
-//        $(function () {
-//            $(".flytmig").draggable();
-
-//            $(".first, .second, .third").droppable({
-//                hoverClass: "hejsa",
-//               
-//                drop: function (event, ui) {
-//                    //   $(".first, .second, .third").find('.draggable').removeClass('draggable').addClass("news");
-//                    console.log($(ui.draggable));
-//                    $(ui.draggable).removeClass('flytmig').removeClass('ui-draggable').addClass('news');
-//                }
-//            });
-
-            //$(this).addClass("highlight").find("p").html("Dropped!");
-            //$(".first, .second, .third").find('.draggable').removeClass('draggable').addClass("news");
-
-        
-
+        }
     </script>
 </head>
 <body>
-    <div id="d">
-        Vælg stil
-    </div>
-    <div id="newslist">
-        <div class="flytmig">
-            <div class="header">
+<div style="display:none;"> 
+
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">Nyheder</a> </li>
+            <li><a href="#tabs-2">Banner</a> </li>
+        </ul>
+        <div id="tabs-1">
+            <div style="float: left; min-width: 500px; min-height: 100px; background-color: lightgray;
+                border: 1px solid black;">
+                <ul id="sortable">
+                    <li class="newsitem">
+                        <div class="news">
+                            <input type="hidden" value="1045" />
+                            <strong>Overskrift 1</strong>
+                            <img src="Images/WebGraphics/fish-food_1224_549_100.jpg" />
+                            <div class="desc">
+                                Selv om hun har sat alt mere frem, og derfor ikke længere kan betragtes som den
+                                glade giver, er det en nem sammenstilling, som bærer ved i lang tid.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="newsitem">
+                        <div class="news">
+                            <strong>Overskrift 2</strong>
+                            <img src="Images/WebGraphics/fish-food_1224_549_100.jpg" />
+                            <div class="desc">
+                                Selv om hun har sat alt mere frem, og derfor ikke længere kan betragtes som den
+                                glade giver, er det en nem sammenstilling, som bærer ved i lang tid.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="newsitem">
+                        <div class="news">
+                            <strong>Overskrift 3</strong>
+                            <img src="Images/WebGraphics/fish-food_1224_549_100.jpg" />
+                            <div class="desc">
+                                Selv om hun har sat alt mere frem, og derfor ikke længere kan betragtes som den
+                                glade giver, er det en nem sammenstilling, som bærer ved i lang tid.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="newsitem">
+                        <div class="news">
+                            <strong>Overskrift 4</strong>
+                            <img src="Images/WebGraphics/fish-food_1224_549_100.jpg" />
+                            <div class="desc">
+                                Selv om hun har sat alt mere frem, og derfor ikke længere kan betragtes som den
+                                glade giver, er det en nem sammenstilling, som bærer ved i lang tid.
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <p>
-                Drag me to my target 1045</p>
-            <input type="hidden" id="newsId" value="1045" />
         </div>
-        <div class="flytmig">
-            <p>
-                Drag me to my target 1047</p>
-            <input type="hidden" id="Hidden1" value="1047" />
-        </div>
-        <div class="flytmig">
-            <p>
-                Drag me to my target 1049</p>
-            <input type="hidden" id="Hidden2" value="1049" />
-        </div>
-    </div>
-    <div id="newsletter">
-        <div class="first">
-            <div class="first-inner">
-            </div>
-        </div>
-        <div class="second">
-        </div>
-        <div class="third">
+        <div id="tabs-2">
+            <ul id="banners">
+                <li class="banner">
+                    <img src="Images/Banners/475x145/banner01.jpg" />
+                </li>
+                <li class="banner">
+                    <img src="Images/Banners/475x145/banner01.jpg" />
+                </li>
+                <li class="banner">
+                    <img src="Images/Banners/475x145/banner01.jpg" />
+                </li>
+            </ul>
         </div>
     </div>
-    <input type="button" title="hej" onclick="javascript:ulla()" />
+    <div id="newsletterConatiner">
+        <ul id="newsletter">
+            <li></li>
+        </ul>
+    </div>
+    <div id="settings">
+        <input type="button" value="Gem" id="uiBtnSave" class="button" onclick="javascript:save_list();" />
+        <input type="button" value="Udgiv" id="Button1" class="button" />
+        <ul id="testing">
+        </ul>
+    </div>
+    </div>
+    <table>
+        <tr>
+            <td>
+                <img src="Images/WebGraphics/fish-food_1224_549_100.jpg" width="300px" />
+            </td>
+            <td  class="newsff">
+                 <p>Selv om hun har sat alt mere frem, og derfor ikke længere kan betragtes som den
+                                glade giver, er det en nem sammenstilling, som bærer ved i lang tid.
+                                 Selv om hun har sat alt mere frem, og derfor ikke længere kan betragtes som den
+                                glade giver, er det en nem sammenstilling, som bærer ved i lang tid.
+                                 Selv om hun har sat alt mere frem, og derfor ikke længere kan betragtes som den
+                                glade giver, er det en nem sammenstilling, som bærer ved i lang tid.</p>
+                                <span class="link">
+                                    <a href="#">Læs hele nyheden..</a>
+                                </span>
+            </td>
+        </tr>
+        <tr>
+            <td class="spacer" colspan="2"></td>
+        </tr>
+        <tr>
+        <td  class="newsff">
+                <p> Selv om hun har sat alt mere frem, og derfor ikke længere kan betragtes som den
+                                glade giver, er det en nem sammenstilling, som bærer ved i lang tid.
+                                 Selv om hun har sat alt mere frem, og derfor ikke længere kan betragtes som den
+                                glade giver, er det en nem sammenstilling, som bærer ved i lang tid.
+                                 Selv om hun har sat alt mere frem, og derfor ikke længere kan betragtes som den
+                                glade giver, er det en nem sammenstilling, som bærer ved i lang tid.</p>
+                                <span class="link">
+                                    <a href="#">Læs hele nyheden..</a>
+                                </span>
+            </td>
+            <td>
+                <img src="Images/WebGraphics/fish-food_1224_549_100.jpg" width="300px" />
+            </td>
+            
+        </tr>
+    </table>
 </body>
 </html>

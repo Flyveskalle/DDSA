@@ -18,7 +18,10 @@ namespace DDSA.Web.masterpages
 
         protected void Page_Load(object sender, EventArgs e)
         {
+
             CountDownTimes = new DualShockManager().SimpleSettingsPageDocType.CountdownTime.Subtract(DateTime.Now);
+            
+
         }
 
         public string BreadCrumb()

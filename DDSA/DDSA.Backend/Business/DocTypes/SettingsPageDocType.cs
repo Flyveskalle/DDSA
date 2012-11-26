@@ -36,5 +36,11 @@ namespace DDSA.Backend.Business.DocTypes
 
         [DocumentTypeProperty(UmbracoPropertyType.MediaPicker, Name = "Medie Artist mappe", Tab = CmsTabs.Media)]
         public int MediaArtistFolderId { get; set; }
+
+        [DocumentTypeProperty(UmbracoPropertyType.ContentPicker, Name = "Nyhedsbrevs mappe", Tab = CmsTabs.Newsletter)]
+        public int NewsletterFolderId{ get; set; }
+
+        [DocumentTypeProperty(UmbracoPropertyType.MediaPicker, Name = "Bannere til nyhedsbrev", Tab = CmsTabs.Newsletter)]
+        public int BannersForNewsletter { get; set; }
     }
 }

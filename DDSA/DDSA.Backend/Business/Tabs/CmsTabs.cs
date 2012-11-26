@@ -11,7 +11,9 @@ namespace DDSA.Backend.Business.Tabs
         Media = 5,
         Konfiguration = 10,
         Email = 20,
+        Newsletter = 30,
         SEO = 100
+
         
     }
 }

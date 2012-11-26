@@ -1,0 +1,50 @@
+2012-11-24 12:25:58,785 [9] INFO  Umbraco.Core.CoreBootManager - [Thread 5] Umbraco application starting
+2012-11-24 12:25:58,804 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2012-11-24 12:25:59,004 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ICacheRefresher (took 199ms)
+2012-11-24 12:25:59,007 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IDataType
+2012-11-24 12:25:59,010 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IDataType (took 2ms)
+2012-11-24 12:25:59,010 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IMacroGuiRendering
+2012-11-24 12:25:59,012 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering (took 1ms)
+2012-11-24 12:25:59,012 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IPackageAction
+2012-11-24 12:25:59,013 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IPackageAction (took 1ms)
+2012-11-24 12:25:59,014 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IAction
+2012-11-24 12:25:59,015 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IAction (took 1ms)
+2012-11-24 12:25:59,015 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2012-11-24 12:25:59,017 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 1ms)
+2012-11-24 12:25:59,018 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2012-11-24 12:25:59,022 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController (took 3ms)
+2012-11-24 12:25:59,277 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2012-11-24 12:25:59,279 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider (took 1ms)
+2012-11-24 12:25:59,283 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2012-11-24 12:25:59,285 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+2012-11-24 12:25:59,451 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IApplication
+2012-11-24 12:25:59,457 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplication (took 5ms)
+2012-11-24 12:25:59,478 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ITree
+2012-11-24 12:25:59,481 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ITree (took 2ms)
+2012-11-24 12:25:59,530 [9] INFO  Umbraco.Core.CoreBootManager - [Thread 5] Umbraco application startup complete (took 741ms)
+2012-11-24 14:25:50,662 [9] INFO  Umbraco.Web.UmbracoApplication - [Thread 5] Application shutdown. Reason: ConfigurationChange
+2012-11-24 14:26:30,090 [15] INFO  Umbraco.Core.CoreBootManager - [Thread 5] Umbraco application starting
+2012-11-24 14:26:30,110 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2012-11-24 14:26:30,315 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ICacheRefresher (took 204ms)
+2012-11-24 14:26:30,318 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IDataType
+2012-11-24 14:26:30,321 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IDataType (took 2ms)
+2012-11-24 14:26:30,321 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IMacroGuiRendering
+2012-11-24 14:26:30,323 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering (took 1ms)
+2012-11-24 14:26:30,323 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IPackageAction
+2012-11-24 14:26:30,324 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IPackageAction (took 1ms)
+2012-11-24 14:26:30,324 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IAction
+2012-11-24 14:26:30,326 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IAction (took 1ms)
+2012-11-24 14:26:30,326 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2012-11-24 14:26:30,327 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 1ms)
+2012-11-24 14:26:30,345 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2012-11-24 14:26:30,346 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController (took 1ms)
+2012-11-24 14:26:30,429 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2012-11-24 14:26:30,431 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider (took 1ms)
+2012-11-24 14:26:30,434 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2012-11-24 14:26:30,437 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler (took 2ms)
+2012-11-24 14:26:30,539 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IApplication
+2012-11-24 14:26:30,544 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplication (took 5ms)
+2012-11-24 14:26:30,559 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ITree
+2012-11-24 14:26:30,563 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ITree (took 3ms)
+2012-11-24 14:26:30,631 [15] INFO  Umbraco.Core.CoreBootManager - [Thread 5] Umbraco application startup complete (took 536ms)
+2012-11-24 15:58:09,819 [15] INFO  Umbraco.Web.UmbracoApplication - [Thread 27] Application shutdown. Reason: ConfigurationChange

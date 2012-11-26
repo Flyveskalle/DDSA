@@ -20,5 +20,14 @@ namespace DDSA.Web.masterpages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DDSA.Web.usercontrols.FrontpageNewsList uiUcNewsList;
+        
+        /// <summary>
+        /// uiRptMedia control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater uiRptMedia;
     }
 }

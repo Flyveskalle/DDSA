@@ -9,26 +9,26 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="public" priority="14" />
-      <Item value="List" priority="3" />
+      <Item value="public" priority="26" />
+      <Item value="List" priority="6" />
       <Item value="CategoryListDocType`0" priority="4" />
-      <Item value="return" priority="23" />
-      <Item value="ContentHelper`0" priority="7" />
-      <Item value="Name" priority="5" />
-      <Item value="DocumentTypeProperty" priority="2" />
-      <Item value="UmbracoPropertyType`0" priority="3" />
-      <Item value="BasePageType`0" priority="2" />
+      <Item value="return" priority="39" />
+      <Item value="ContentHelper`0" priority="8" />
+      <Item value="Name" priority="7" />
+      <Item value="DocumentTypeProperty" priority="3" />
+      <Item value="UmbracoPropertyType`0" priority="4" />
+      <Item value="BasePageType`0" priority="3" />
       <Item value="CategoryDocType`0" priority="1" />
-      <Item value="SimpleSettingsPageDocType" priority="8" />
+      <Item value="SimpleSettingsPageDocType" priority="10" />
       <Item value="NominiesDocType`0" priority="4" />
-      <Item value="int" priority="6" />
-      <Item value="content`0" priority="0" />
+      <Item value="int" priority="17" />
+      <Item value="content`0" priority="1" />
       <Item value="parentId" priority="0" />
-      <Item value="void" priority="6" />
-      <Item value="string" priority="30" />
-      <Item value="using" priority="1" />
+      <Item value="void" priority="7" />
+      <Item value="string" priority="58" />
+      <Item value="using" priority="2" />
       <Item value="System" priority="0" />
-      <Item value="Web" priority="0" />
+      <Item value="Web" priority="1" />
       <Item value="Security" priority="0" />
       <Item value="Member`0" priority="2" />
       <Item value="Membership`0" priority="0" />
@@ -38,22 +38,22 @@
       <Item value="try" priority="1" />
       <Item value="MembershipCreateStatus" priority="1" />
       <Item value="status" priority="1" />
-      <Item value="if" priority="15" />
+      <Item value="if" priority="25" />
       <Item value="newUser" priority="0" />
-      <Item value="null" priority="7" />
+      <Item value="null" priority="9" />
       <Item value="else" priority="3" />
-      <Item value="private" priority="5" />
+      <Item value="private" priority="9" />
       <Item value="GetErrorMessage`0" priority="0" />
       <Item value="Guid`0" priority="0" />
-      <Item value="static" priority="2" />
-      <Item value="new" priority="17" />
+      <Item value="static" priority="3" />
+      <Item value="new" priority="25" />
       <Item value="imageId" priority="0" />
-      <Item value="DefaultValue" priority="0" />
-      <Item value="false" priority="2" />
+      <Item value="DefaultValue" priority="1" />
+      <Item value="false" priority="3" />
       <Item value="Decimal`0" priority="0" />
-      <Item value="Description" priority="4" />
+      <Item value="Description" priority="6" />
       <Item value="Tab" priority="0" />
-      <Item value="Tabs" priority="2" />
+      <Item value="Tabs" priority="3" />
       <Item value="CmsTabs`0" priority="1" />
       <Item value="DocumentTypeBase`0" priority="0" />
       <Item value="protected" priority="3" />
@@ -64,38 +64,38 @@
       <Item value="as" priority="1" />
       <Item value="categoryListDocType" priority="2" />
       <Item value="LinkedListNode" priority="0" />
-      <Item value="Document`0" priority="2" />
-      <Item value="DocumentType" priority="0" />
+      <Item value="Document`0" priority="5" />
+      <Item value="DocumentType" priority="1" />
       <Item value="CreatedPackageTasks`0" priority="1" />
       <Item value="DocumentType`0" priority="3" />
       <Item value="documentTypeName" priority="1" />
-      <Item value="x" priority="5" />
+      <Item value="x" priority="7" />
       <Item value="GetDocumentTypeByName`0" priority="0" />
-      <Item value="dt" priority="0" />
+      <Item value="dt" priority="1" />
       <Item value="GetCategoryListNode`0" priority="0" />
       <Item value="umbraco" priority="1" />
       <Item value="presentation" priority="0" />
-      <Item value="library`0" priority="1" />
+      <Item value="library`0" priority="2" />
       <Item value="newCategoryDoc" priority="1" />
-      <Item value="User`0" priority="4" />
+      <Item value="User`0" priority="6" />
       <Item value="categoryName" priority="2" />
       <Item value="ex" priority="0" />
-      <Item value="DualShockManager`0" priority="0" />
+      <Item value="DualShockManager`0" priority="1" />
       <Item value="uiLblMessage" priority="0" />
-      <Item value="bool" priority="2" />
+      <Item value="bool" priority="3" />
       <Item value="parrentId" priority="1" />
-      <Item value="xmlHelper`0" priority="1" />
+      <Item value="xmlHelper`0" priority="2" />
       <Item value="DoesNodenameExicst`0" priority="0" />
       <Item value="FolderDocType`0" priority="2" />
       <Item value="artistName" priority="3" />
       <Item value="CreateMediaLibrary`0" priority="0" />
-      <Item value="Media`0" priority="2" />
+      <Item value="Media`0" priority="4" />
       <Item value="MediaDocType`0" priority="0" />
       <Item value="MediaType`0" priority="1" />
       <Item value="nominieName" priority="0" />
       <Item value="mt" priority="0" />
       <Item value="Dictionary" priority="1" />
-      <Item value="foreach" priority="2" />
+      <Item value="foreach" priority="4" />
       <Item value="subFolderNamesAndType" priority="0" />
       <Item value="pair" priority="1" />
       <Item value="mediaFolder" priority="1" />
@@ -106,17 +106,17 @@
       <Item value="NominiesListDocType`0" priority="2" />
       <Item value="is" priority="1" />
       <Item value="List&lt;string&gt;" priority="0" />
-      <Item value="var" priority="0" />
+      <Item value="var" priority="1" />
       <Item value="node" priority="0" />
       <Item value="NodeFactory" priority="0" />
       <Item value="Node" priority="0" />
       <Item value="m" priority="3" />
-      <Item value="result" priority="2" />
+      <Item value="result" priority="5" />
       <Item value="newArtistDoc" priority="0" />
       <Item value="uiTxtNewsletterSignUpName" priority="0" />
       <Item value="uiTxtNewsletterSignUpEmail" priority="0" />
       <Item value="Frontpage`0" priority="1" />
-      <Item value="TextPageDoctType`0" priority="1" />
+      <Item value="TextPageDoctType`0" priority="3" />
       <Item value="NewMemberUIEventArgs`0" priority="0" />
       <Item value="newNews" priority="4" />
       <Item value="showInMenu" priority="0" />
@@ -126,11 +126,11 @@
       <Item value="uiChbShowInMenu" priority="0" />
       <Item value="masterpages" priority="0" />
       <Item value="uiChbPublish" priority="0" />
-      <Item value="id" priority="3" />
+      <Item value="id" priority="7" />
       <Item value="Response" priority="0" />
       <Item value="NodeExtensions`0" priority="0" />
-      <Item value="StringBuilder" priority="0" />
-      <Item value="sb" priority="3" />
+      <Item value="StringBuilder" priority="2" />
+      <Item value="sb" priority="14" />
       <Item value="sbyte" priority="0" />
       <Item value="TimeSpan`0" priority="0" />
       <Item value="CountDownTime" priority="0" />
@@ -138,15 +138,74 @@
       <Item value="CountDownTimes" priority="0" />
       <Item value="TemplateBase`0" priority="0" />
       <Item value="uiRptFrontpageNews" priority="0" />
-      <Item value="Container" priority="0" />
+      <Item value="Container" priority="2" />
       <Item value="hej" priority="0" />
+      <Item value="context" priority="0" />
+      <Item value="ToList`1" priority="0" />
+      <Item value="FirstOrDefault`1" priority="0" />
+      <Item value="uiRptMedia" priority="0" />
+      <Item value="IsPostBack" priority="0" />
+      <Item value="Vega" priority="0" />
+      <Item value="USiteBuilder" priority="0" />
+      <Item value="DateTime`0" priority="2" />
+      <Item value="decimal" priority="0" />
+      <Item value="type" priority="2" />
+      <Item value="isLast" priority="0" />
+      <Item value="enum" priority="0" />
+      <Item value="newsletterItems" priority="2" />
+      <Item value="ICustomFormatter`0" priority="0" />
+      <Item value="newsLetterName" priority="0" />
+      <Item value="NewsletterType`0" priority="6" />
+      <Item value="item" priority="3" />
+      <Item value="array" priority="0" />
+      <Item value="NewsletterDataFormat`0" priority="0" />
+      <Item value="g" priority="0" />
+      <Item value="Length" priority="1" />
+      <Item value="newsletterArray" priority="0" />
+      <Item value="length" priority="1" />
+      <Item value="propertyValue" priority="1" />
+      <Item value="newsLetter" priority="2" />
+      <Item value="sendDate" priority="0" />
+      <Item value="uiRptNewslist" priority="0" />
+      <Item value="IndexOutOfRangeException`0" priority="0" />
+      <Item value="NewsletterDocType`0" priority="0" />
+      <Item value="newsletterId" priority="0" />
+      <Item value="newsletter" priority="3" />
+      <Item value="switch" priority="0" />
+      <Item value="case" priority="1" />
+      <Item value="default" priority="0" />
+      <Item value="NewsletterItem`0" priority="3" />
+      <Item value="NewsletterItem" priority="0" />
+      <Item value="GetNews`0" priority="1" />
+      <Item value="Content" priority="0" />
+      <Item value="news" priority="2" />
+      <Item value="List&lt;NewsletterItem&gt;" priority="0" />
+      <Item value="item`0" priority="0" />
+      <Item value="out" priority="0" />
+      <Item value="Type" priority="0" />
+      <Item value="GetType`0" priority="0" />
+      <Item value="LinkUrl" priority="0" />
+      <Item value="imgUrl" priority="0" />
+      <Item value="content" priority="0" />
+      <Item value="ImageUpload" priority="0" />
+      <Item value="linkUrl" priority="0" />
+      <Item value="newsletterItem" priority="6" />
+      <Item value="News" priority="1" />
+      <Item value="RenderNews`0" priority="0" />
+      <Item value="ImageUrl" priority="0" />
+      <Item value="StringBuilder`0" priority="0" />
+      <Item value="RenderNewsletter`0" priority="0" />
+      <Item value="NewsletterHtml" priority="0" />
+      <Item value="nli" priority="0" />
+      <Item value="EnvironmentVariableTarget`0" priority="1" />
+      <Item value="thisType" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Linq.IOrderedEnumerable`1">
       <Item value="Take`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Vega.USiteBuilder.ContentHelper">
-      <Item value="GetByNodeId`0" priority="3" />
-      <Item value="GetChildren`0" priority="4" />
+      <Item value="GetByNodeId`0" priority="4" />
+      <Item value="GetChildren`0" priority="5" />
       <Item value="GetByNode`0" priority="1" />
       <Item value="GetCurrentContent`0" priority="2" />
     </ItemStatistics>
@@ -155,29 +214,34 @@
       <Item value="NewsletterSignUpMessage" priority="0" />
       <Item value="Homepage" priority="1" />
       <Item value="MediaArtistFolderId" priority="0" />
-      <Item value="NominiesFolderId" priority="0" />
+      <Item value="NominiesFolderId" priority="1" />
       <Item value="NewsFolderId" priority="0" />
+      <Item value="NewsletterFolderId" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
       <Item value="Where`1" priority="3" />
       <Item value="ToList`1" priority="0" />
-      <Item value="FirstOrDefault`1" priority="4" />
+      <Item value="FirstOrDefault`1" priority="5" />
+      <Item value="Count" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Web.Security.Membership">
       <Item value="CreateUser`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Vega.USiteBuilder.UmbracoPropertyType">
-      <Item value="SimpleEditor" priority="0" />
-      <Item value="TrueFalse" priority="0" />
+      <Item value="SimpleEditor" priority="1" />
+      <Item value="TrueFalse" priority="1" />
       <Item value="Upload" priority="1" />
       <Item value="Textstring" priority="0" />
       <Item value="Tags" priority="1" />
       <Item value="MediaPicker" priority="1" />
+      <Item value="DatePickerWithTime" priority="0" />
+      <Item value="ContentPicker" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@DDSA.Backend.Business.Tabs.CmsTabs">
       <Item value="Email" priority="0" />
-      <Item value="Indhold" priority="1" />
+      <Item value="Indhold" priority="2" />
       <Item value="Media" priority="0" />
+      <Item value="Newsletter" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Guid">
       <Item value="NewGuid`0" priority="0" />
@@ -189,10 +253,14 @@
       <Item value="Substring`0" priority="0" />
       <Item value="Trim`0" priority="3" />
       <Item value="ToLower`0" priority="2" />
+      <Item value="Split`0" priority="4" />
+      <Item value="ToString`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:umbraco.cms.businesslogic.media.Media">
-      <Item value="Text" priority="0" />
+      <Item value="Text" priority="2" />
       <Item value="Id" priority="1" />
+      <Item value="Children" priority="1" />
+      <Item value="getProperty`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
       <Item value="Text" priority="6" />
@@ -203,17 +271,20 @@
       <Item value="CreateMember`0" priority="0" />
       <Item value="CreateNews`0" priority="0" />
       <Item value="SimpleSettingsPageDocType" priority="0" />
-      <Item value="GetNews`0" priority="0" />
+      <Item value="GetNews`0" priority="1" />
       <Item value="GetFrontpageNewsList`0" priority="0" />
+      <Item value="BannersForNewsletter`0" priority="0" />
+      <Item value="SaveNewsletter`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@umbraco.cms.businesslogic.web.Document">
-      <Item value="MakeNew`0" priority="1" />
+      <Item value="MakeNew`0" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:DDSA.Backend.Business.DocTypes.CategoryListDocType">
       <Item value="Id" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
-      <Item value="IsNullOrEmpty`0" priority="2" />
+      <Item value="IsNullOrEmpty`0" priority="4" />
+      <Item value="Format`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@umbraco.cms.businesslogic.web.DocumentType">
       <Item value="GetAllAsList`0" priority="2" />
@@ -223,19 +294,19 @@
       <Item value="Alias" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@umbraco.BusinessLogic.User">
-      <Item value="GetCurrent`0" priority="4" />
+      <Item value="GetCurrent`0" priority="6" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:umbraco.BusinessLogic.User">
       <Item value="Id" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@umbraco.library">
-      <Item value="UpdateDocumentCache`0" priority="1" />
+      <Item value="UpdateDocumentCache`0" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:umbraco.cms.businesslogic.web.Document">
-      <Item value="Id" priority="2" />
-      <Item value="Publish`0" priority="1" />
+      <Item value="Id" priority="3" />
+      <Item value="Publish`0" priority="2" />
       <Item value="Text" priority="0" />
-      <Item value="getProperty`0" priority="1" />
+      <Item value="getProperty`0" priority="2" />
       <Item value="GetProperty`1" priority="0" />
       <Item value="Save`0" priority="1" />
     </ItemStatistics>
@@ -282,10 +353,12 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:umbraco.NodeFactory.Node">
       <Item value="ChildrenAsList" priority="0" />
-      <Item value="Name" priority="0" />
+      <Item value="Name" priority="1" />
+      <Item value="Id" priority="0" />
+      <Item value="GetProperty`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:umbraco.cms.businesslogic.property.Property">
-      <Item value="Value" priority="1" />
+      <Item value="Value" priority="4" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Int32">
       <Item value="ToString`0" priority="0" />
@@ -297,8 +370,8 @@
       <Item value="Redirect`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Text.StringBuilder">
-      <Item value="Append`0" priority="1" />
-      <Item value="ToString`0" priority="0" />
+      <Item value="Append`0" priority="10" />
+      <Item value="ToString`0" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.TimeSpan">
       <Item value="Days" priority="1" />
@@ -307,77 +380,126 @@
       <Item value="Seconds" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.UI.WebControls.Repeater">
-      <Item value="DataSource" priority="0" />
+      <Item value="DataSource" priority="2" />
       <Item value="Controls" priority="0" />
-      <Item value="DataBind`0" priority="0" />
+      <Item value="DataBind`0" priority="2" />
+      <Item value="DataBinding" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItem">
-      <Item value="DataItem" priority="0" />
+      <Item value="DataItem" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:DDSA.Backend.Business.DocTypes.TextPageDoctType">
-      <Item value="Headline" priority="0" />
+      <Item value="Headline" priority="1" />
       <Item value="Template" priority="1" />
+      <Item value="ShortDescription" priority="0" />
+      <Item value="Id" priority="0" />
+      <Item value="Description" priority="1" />
+      <Item value="ImageUpload" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="Request" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="QueryString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToShortTimeString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="TryParse`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:umbraco.interfaces.IProperty">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DDSA.Backend.Business.DocTypes.NewsletterDocType">
+      <Item value="NewsletterData" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DDSA.Backend.Business.DataObjects.NewsletterType">
+      <Item value="News" priority="0" />
+      <Item value="Banner" priority="0" />
+      <Item value="Unknown" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DDSA.Backend.Business.DataObjects.NewsletterItem">
+      <Item value="Content" priority="1" />
+      <Item value="Type" priority="0" />
+      <Item value="Headline" priority="0" />
+      <Item value="ImageUrl" priority="0" />
+      <Item value="LinkUrl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DDSA.Backend.Business.DualShockManager">
+      <Item value="GetImageUrlFromId`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:Global.asax" caret="0" fromTop="0" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/d:Dashboard/f:CreateNominie.ascx.designer.cs" caret="2502" fromTop="60" />
-      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/d:Tabs/f:CmsTabs.cs" caret="200" fromTop="10" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/d:Dashboard/f:CreateCategory.ascx.cs" caret="339" fromTop="8" />
-      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/d:DocTypes/f:SettingsPageDocType.cs" caret="1641" fromTop="16" />
-      <File id="d:Miscellaneous Files/f:umbraco.cms.businesslogic.media.Media.cs/l:C!?Projects?DDSA?DDSA?_ReSharper.DDSA?DecompilerCache?metadata?cms-9cfd?umbraco.cms.businesslogic.media.Media.cs" caret="1111" fromTop="13" />
-      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/d:DocTypes/f:NominiesDocType.cs" caret="1651" fromTop="22" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/d:Dashboard/f:CreateNominie.ascx" caret="311" fromTop="2" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/d:Dashboard/f:CreateNominie.ascx.cs" caret="539" fromTop="19" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/f:NewsletterSignup.ascx.cs" caret="711" fromTop="21" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/d:Dashboard/f:CreateCategory.ascx" caret="372" fromTop="4" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/d:Dashboard/f:CreateNews.ascx.cs" caret="711" fromTop="22" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:CountDown.htm" caret="685" fromTop="12" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/f:CountDown.ascx" caret="129" fromTop="2" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:css/f:print.css" caret="0" fromTop="0" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/d:Dashboard/f:CreateNews.ascx" caret="1057" fromTop="14" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:config/f:Dashboard.config" caret="2729" fromTop="18" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:News.Master.designer.cs" caret="444" fromTop="15" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Frontpage.master.cs" caret="374" fromTop="14" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Master.Master.cs" caret="407" fromTop="17" />
       <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Master.Master.designer.cs" caret="368" fromTop="9" />
       <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Master.Master" caret="867" fromTop="16" />
       <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/f:NewsletterSignup.ascx" caret="809" fromTop="8" />
       <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:css/f:screen.css" caret="362" fromTop="20" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:News.Master" caret="0" fromTop="0" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:News.Master.cs" caret="409" fromTop="17" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Frontpage.master" caret="898" fromTop="11" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/f:FrontpageNewsList.ascx" caret="343" fromTop="4" />
       <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/f:FrontpageNewsList.ascx.cs" caret="377" fromTop="5" />
-      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="2598" fromTop="17" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/f:FrontpageNewsList.ascx" caret="0" fromTop="0" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/d:Dashboard/f:CreateNews.ascx" caret="0" fromTop="0" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/d:Dashboard/f:CreateNominie.ascx" caret="0" fromTop="0" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:scripts/d:ui-lightness/f:jquery-ui-1.9.1.custom.css" caret="18905" fromTop="35" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Frontpage.master" caret="1528" fromTop="17" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/d:Tabs/f:CmsTabs.cs" caret="281" fromTop="13" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/d:DocTypes/f:SettingsPageDocType.cs" caret="2188" fromTop="20" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:default.aspx" caret="152" fromTop="2" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:config/f:Dashboard.config" caret="2685" fromTop="18" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/d:DocTypes/f:NominiesDocType.cs" caret="0" fromTop="0" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/d:Dashboard/f:CreateNewsletter.ascx.cs" caret="472" fromTop="16" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:CountDown.htm" caret="925" fromTop="19" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/d:Dashboard/f:CreateNewsletter.ascx" caret="3786" fromTop="16" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/d:DataObjects/f:NewsletterType.cs" caret="303" fromTop="14" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:Webservices/d:Dashboard/f:Handler1.ashx.cs" caret="615" fromTop="20" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/d:DocTypes/f:NewsletterDocType.cs" caret="1055" fromTop="17" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/d:DocTypes/f:TextPageDoctType.cs" caret="1130" fromTop="15" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Frontpage.master.cs" caret="544" fromTop="6" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:DragDrop.htm" caret="3407" fromTop="0" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/d:DataObjects/f:NewsletterItem.cs" caret="315" fromTop="11" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:PreviewNewsletter.aspx" caret="765" fromTop="17" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:PreviewNewsletter.aspx.cs" caret="272" fromTop="12" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:News.Master.cs" caret="553" fromTop="19" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:News.Master" caret="674" fromTop="18" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="16305" fromTop="16" />
     </RecentFiles>
     <RecentEdits>
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:css/f:screen.css" caret="780" fromTop="19" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:css/f:screen.css" caret="203" fromTop="10" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:css/f:screen.css" caret="541" fromTop="21" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:css/f:screen.css" caret="568" fromTop="23" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:config/f:Dashboard.config" caret="2738" fromTop="18" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:News.Master" caret="0" fromTop="0" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Master.Master" caret="744" fromTop="12" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Master.Master" caret="1034" fromTop="19" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Master.Master" caret="927" fromTop="19" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Frontpage.master.cs" caret="1443" fromTop="26" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Frontpage.master.cs" caret="1107" fromTop="15" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Master.Master" caret="781" fromTop="11" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Frontpage.master.cs" caret="392" fromTop="14" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Master.Master.cs" caret="302" fromTop="11" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Frontpage.master" caret="507" fromTop="5" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Frontpage.master" caret="920" fromTop="15" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/f:NewsletterSignup.ascx" caret="834" fromTop="8" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/f:FrontpageNewsList.ascx.cs" caret="522" fromTop="9" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/f:FrontpageNewsList.ascx.cs" caret="499" fromTop="6" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:css/f:screen.css" caret="362" fromTop="20" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Frontpage.master" caret="267" fromTop="1" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:Frontpage.master" caret="1189" fromTop="20" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:News.Master.cs" caret="309" fromTop="11" />
-      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="2609" fromTop="17" />
-      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:usercontrols/f:FrontpageNewsList.ascx" caret="343" fromTop="4" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:DragDrop.htm" caret="9214" fromTop="12" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:DragDrop.htm" caret="9831" fromTop="17" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:DragDrop.htm" caret="10793" fromTop="21" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:DragDrop.htm" caret="10173" fromTop="16" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:DragDrop.htm" caret="3305" fromTop="18" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:DragDrop.htm" caret="3424" fromTop="0" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="16397" fromTop="17" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="17853" fromTop="11" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="18938" fromTop="26" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="19086" fromTop="22" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="19296" fromTop="12" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="19581" fromTop="18" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/d:DataObjects/f:NewsletterItem.cs" caret="315" fromTop="11" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="17050" fromTop="8" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="16378" fromTop="10" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="17338" fromTop="20" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:PreviewNewsletter.aspx" caret="1152" fromTop="16" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:PreviewNewsletter.aspx" caret="754" fromTop="16" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:PreviewNewsletter.aspx" caret="765" fromTop="17" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:News.Master" caret="1470" fromTop="16" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:News.Master" caret="627" fromTop="16" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:PreviewNewsletter.aspx.cs" caret="272" fromTop="12" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/f:PreviewNewsletter.aspx.cs" caret="272" fromTop="12" />
+      <File id="60654413-04FB-4765-9809-56188A2B1BAA/d:masterpages/f:News.Master.cs" caret="553" fromTop="19" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="16996" fromTop="17" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="3017" fromTop="15" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="16993" fromTop="15" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="17020" fromTop="17" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="16324" fromTop="20" />
+      <File id="FBB295F2-AF3F-4721-9AF6-6BF5B4A21D08/d:Business/f:DualShockManager.cs" caret="15993" fromTop="9" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
