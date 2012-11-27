@@ -7,7 +7,7 @@ using DDSA.Backend.Business.Tabs;
 
 namespace DDSA.Backend.Business.DocTypes
 {
-    [DocumentType(Name = "Forside")]
+    [DocumentType(Name = "Forside", IconUrl = "DualShock.ico")]
     public class FrontpageDocType : BasePageType
     {
 

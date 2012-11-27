@@ -9,6 +9,7 @@ namespace DDSA.Backend.Business.DocTypes
     [DocumentType(Name = "Mappe")]
     public class FolderDocType : DocumentTypeBase
     {
-
+        [DocumentTypeProperty(UmbracoPropertyType.TrueFalse, Name = "Vis i menu?")]
+        public bool umbracoNaviHide { get; set; }
     }
 }

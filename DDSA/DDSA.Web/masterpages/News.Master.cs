@@ -16,7 +16,7 @@ namespace DDSA.Web.masterpages
         public string NewsletterHtml = "";
         protected void Page_Load(object sender, EventArgs e)
         {
-            NewsletterHtml = new DualShockManager().RenderNewsletter(1158);
+            NewsletterHtml = new NewsletterManager().RenderNewsletter(1158);
         }
     }
 }

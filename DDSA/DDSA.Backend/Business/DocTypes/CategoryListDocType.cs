@@ -7,7 +7,7 @@ using DDSA.Backend.Business.Tabs;
 
 namespace DDSA.Backend.Business.DocTypes
 {
-    [DocumentType(Name = "Kategori liste", Description = "Sidetype til at oprette en ny kategori")]
+    [DocumentType(Name = "Kategori liste", Description = "Sidetype til at oprette en ny kategori", IconUrl = "categories.ico")]
     public class CategoryListDocType : BasePageType
     {
         [DocumentTypeProperty(UmbracoPropertyType.SimpleEditor, Name = "Kort beskrivelse", Tab = CmsTabs.Indhold)]

@@ -24,7 +24,7 @@ namespace DDSA.Web.Webservices.Dashboard
             int stop = 1;
             if(!string.IsNullOrEmpty(result))
             {
-                new DualShockManager().SaveNewsletter(result, DateTime.Now);
+                new NewsletterManager().SaveNewsletter(result, DateTime.Now);
             }
             
 

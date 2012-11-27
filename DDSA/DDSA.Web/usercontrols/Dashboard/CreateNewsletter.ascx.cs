@@ -17,7 +17,7 @@ namespace DDSA.Web.usercontrols.Dashboard
                 uiRptNewslist.DataSource = new DualShockManager().GetNews();
                 uiRptNewslist.DataBind();
 
-                uiRptMedia.DataSource = new DualShockManager().BannersForNewsletter();
+                uiRptMedia.DataSource = new NewsletterManager().BannersForNewsletter();
                 uiRptMedia.DataBind();
             }
         }

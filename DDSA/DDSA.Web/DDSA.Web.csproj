@@ -172,7 +172,6 @@
     <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
     <Folder Include="App_Plugins\" />
-    <Folder Include="macroScripts\" />
     <Folder Include="media\" />
     <Folder Include="xslt\" />
   </ItemGroup>
@@ -210,6 +209,7 @@
     <Content Include="masterpages\News.Master" />
     <Content Include="masterpages\Master.Master" />
     <Content Include="masterpages\Frontpage.master" />
+    <Content Include="macroScripts\Servicemenu.cshtml" />
     <None Include="Umbraco\dashboard\air\DesktopMediaUploader.air" />
     <Content Include="CountDown.htm" />
     <Content Include="Images\WebGraphics\Countdown\digits.png" />

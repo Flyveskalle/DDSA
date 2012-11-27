@@ -7,7 +7,7 @@ using DDSA.Backend.Business.Tabs;
 
 namespace DDSA.Backend.Business.DocTypes
 {
-    [DocumentType(Name = "Nominerede", Description = "Sidetype til at udfylde standard data omkring en artist, band el. andet enhed")]
+    [DocumentType(Name = "Nominerede", Description = "Sidetype til at udfylde standard data omkring en artist, band el. andet enhed", IconUrl = "an_artist.ico")]
     public class NominiesDocType : BasePageType
     {
         [DocumentTypeProperty(UmbracoPropertyType.Upload, Name = "Billede", Description = "Upload nyt billede", Tab = CmsTabs.Indhold)]

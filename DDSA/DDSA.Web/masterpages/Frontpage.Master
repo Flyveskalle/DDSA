@@ -32,4 +32,5 @@
             <img src='<%# ((Media)Container.DataItem).getProperty("umbracoFile").Value %>' alt="<%# ((Media)Container.DataItem).Text %>" /><br />
         </ItemTemplate>
     </asp:Repeater>
+    <umbraco:Macro runat="server" Alias="Servicemenu" />
 </asp:Content>
