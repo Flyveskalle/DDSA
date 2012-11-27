@@ -20,7 +20,11 @@ namespace DDSA.Web.masterpages
         {
 
             CountDownTimes = new DualShockManager().SimpleSettingsPageDocType.CountdownTime.Subtract(DateTime.Now);
-            
+            int tagId = umbraco.cms.businesslogic.Tags.Tag.AddTag("hejsa"+ DateTime.Now.Second, "Search");
+
+            var tags = umbraco.cms.businesslogic.Tags.Tag.GetTags();
+
+            int stop = 2;
 
         }
 

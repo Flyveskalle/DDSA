@@ -22,6 +22,9 @@ namespace DDSA.Backend.Business.DocTypes
         [DocumentTypeProperty(UmbracoPropertyType.TrueFalse, Name = "Forhåndsfavorit", Tab = CmsTabs.Indhold, DefaultValue = false)]
         public string Favorites { get; set; }
 
+        [DocumentTypeProperty(UmbracoPropertyType.Tags, Name = "Søge tags", Description = "Brug ENTER efter man har skrevet et Tag (Ellers bliver det ikke gemt)", Tab = CmsTabs.Indhold)]
+        public string Tags { get; set; }
+
         [DocumentTypeProperty(UmbracoPropertyType.RelatedLinks, Name = "Relaterede links", Tab = CmsTabs.Indhold)]
         public string RelatedLinks { get; set; }
 

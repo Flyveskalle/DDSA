@@ -107,12 +107,12 @@
     <Compile Include="masterpages\News.Master.designer.cs">
       <DependentUpon>News.Master</DependentUpon>
     </Compile>
-    <Compile Include="PreviewNewsletter.aspx.cs">
-      <DependentUpon>PreviewNewsletter.aspx</DependentUpon>
+    <Compile Include="masterpages\TagSearchResult.master.cs">
+      <DependentUpon>TagSearchResult.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PreviewNewsletter.aspx.designer.cs">
-      <DependentUpon>PreviewNewsletter.aspx</DependentUpon>
+    <Compile Include="masterpages\TagSearchResult.master.designer.cs">
+      <DependentUpon>TagSearchResult.master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="usercontrols\CountDown.ascx.cs">
@@ -136,13 +136,6 @@
     <Compile Include="usercontrols\Dashboard\CreateNews.ascx.designer.cs">
       <DependentUpon>CreateNews.ascx</DependentUpon>
     </Compile>
-    <Compile Include="usercontrols\Dashboard\CreateNewsletter.ascx.cs">
-      <DependentUpon>CreateNewsletter.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="usercontrols\Dashboard\CreateNewsletter.ascx.designer.cs">
-      <DependentUpon>CreateNewsletter.ascx</DependentUpon>
-    </Compile>
     <Compile Include="usercontrols\Dashboard\CreateNominie.ascx.cs">
       <DependentUpon>CreateNominie.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -164,20 +157,33 @@
     <Compile Include="usercontrols\NewsletterSignup.ascx.designer.cs">
       <DependentUpon>NewsletterSignup.ascx</DependentUpon>
     </Compile>
+    <Compile Include="usercontrols\TextPageTags.ascx.cs">
+      <DependentUpon>TextPageTags.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\TextPageTags.ascx.designer.cs">
+      <DependentUpon>TextPageTags.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Webservices\Dashboard\Handler1.ashx.cs">
       <DependentUpon>Handler1.ashx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Code\" />
-    <Folder Include="App_Data\" />
     <Folder Include="App_Plugins\" />
     <Folder Include="media\" />
-    <Folder Include="xslt\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Browsers\Form.browser" />
     <Content Include="App_Browsers\w3cvalidator.browser" />
+    <Content Include="App_Data\packages\created\createdPackages.config" />
+    <Content Include="App_Data\packages\installed\installedPackages.config" />
+    <Content Include="bin\uMediaPicker.dll" />
+    <Content Include="bin\Vega.USiteBuilder.dll" />
+    <Content Include="bin\Vega.USiteBuilder.xml" />
+    <Content Include="Mangler.txt" />
+    <Content Include="usercontrols\TextPageTags.ascx" />
+    <Content Include="xslt\SearchTags.xslt" />
     <None Include="bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
     <None Include="bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
     <Content Include="config\404handlers.config" />
@@ -203,21 +209,21 @@
     <Content Include="css\print.css" />
     <Content Include="css\screen.css" />
     <Content Include="DragDrop.htm" />
-    <Content Include="Images\Banners\475x145\banner01.jpg" />
     <Content Include="Images\bg\background01.jpg" />
-    <Content Include="Images\WebGraphics\fish-food_1224_549_100.jpg" />
     <Content Include="masterpages\News.Master" />
     <Content Include="masterpages\Master.Master" />
     <Content Include="masterpages\Frontpage.master" />
+    <Content Include="jquery-ui-1.9.1.custom.zip" />
+    <Content Include="macroScripts\SearchByTag.cshtml" />
     <Content Include="macroScripts\Servicemenu.cshtml" />
+    <Content Include="masterpages\TagSearchResult.master" />
     <None Include="Umbraco\dashboard\air\DesktopMediaUploader.air" />
     <Content Include="CountDown.htm" />
     <Content Include="Images\WebGraphics\Countdown\digits.png" />
-    <Content Include="PreviewNewsletter.aspx" />
     <Content Include="scripts\jquery-1.8.3.js" />
     <Content Include="scripts\jquery-ui-1.9.1.custom.js" />
     <Content Include="scripts\jquery-ui-1.9.1.custom.min.js" />
-    <Content Include="scripts\jquery.countdown.js" />
+    <Content Include="Umbraco\jquery.countdown.js" />
     <Content Include="scripts\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
     <Content Include="scripts\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
     <Content Include="scripts\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
@@ -257,10 +263,20 @@
     <Content Include="usercontrols\CountDown.ascx" />
     <Content Include="usercontrols\Dashboard\CreateCategory.ascx" />
     <Content Include="usercontrols\Dashboard\CreateNews.ascx" />
-    <Content Include="usercontrols\Dashboard\CreateNewsletter.ascx" />
     <Content Include="usercontrols\Dashboard\CreateNominie.ascx" />
     <Content Include="usercontrols\FrontpageNewsList.ascx" />
     <Content Include="usercontrols\NewsletterSignup.ascx" />
+    <Content Include="usercontrols\uMediaPicker\css\jplayer.blue.monday - Copy.jpg" />
+    <Content Include="usercontrols\uMediaPicker\css\jplayer.blue.monday.css" />
+    <Content Include="usercontrols\uMediaPicker\css\jplayer.blue.monday.jpg" />
+    <Content Include="usercontrols\uMediaPicker\css\jplayer.blue.monday.seeking.gif" />
+    <Content Include="usercontrols\uMediaPicker\css\jplayer.blue.monday.video.play.png" />
+    <Content Include="usercontrols\uMediaPicker\css\preview.png" />
+    <Content Include="usercontrols\uMediaPicker\js\Jplayer.swf" />
+    <Content Include="usercontrols\uMediaPicker\js\tinyscrollbar.js" />
+    <Content Include="usercontrols\uMediaPicker\js\uMediaPicker.js" />
+    <Content Include="usercontrols\uMediaPicker\MediaPreview.ascx" />
+    <Content Include="usercontrols\uMediaPicker\uMediaPicker.ascx" />
     <Content Include="Views\Web.config" />
     <Content Include="Web.config" />
     <Content Include="Webservices\Dashboard\Handler1.ashx" />

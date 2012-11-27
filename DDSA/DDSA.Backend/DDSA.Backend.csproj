@@ -72,10 +72,12 @@
     <Compile Include="Business\DocTypes\NominiesDocType.cs" />
     <Compile Include="Business\DocTypes\NominiesListDocType.cs" />
     <Compile Include="Business\DocTypes\SettingsPageDocType.cs" />
+    <Compile Include="Business\DocTypes\TagSearchDocType.cs" />
     <Compile Include="Business\DocTypes\TextPageDoctType.cs" />
     <Compile Include="Business\DualShockManager.cs" />
     <Compile Include="Business\NewsletterManager.cs" />
     <Compile Include="Business\Tabs\CmsTabs.cs" />
+    <Compile Include="Business\TagManager.cs" />
     <Compile Include="Cache\WebCache.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

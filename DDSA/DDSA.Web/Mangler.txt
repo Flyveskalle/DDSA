@@ -1,0 +1,34 @@
+Mangler:
+ - Nyhedsbrevmodul:
+	append css
+	Render banners
+	Header
+	Footer
+	Afmeld
+
+ - Users
+	User-Guid?
+	IsActive?
+
+ - Tags
+	Search by tags (Hyperlink onclick)
+	SearchTagsResultPage
+		Sidetyper m. Tags
+			- Textpage
+			- Nominerede
+			- Media*
+			
+
+ - Mail
+	Velkomst mail template
+
+ - Google Analytics
+
+ - FAQ 
+	jQuery
+	Macro
+	
+
+
+
+	

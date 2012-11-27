@@ -1,0 +1,14 @@
+﻿@{
+    string tagToFind = Request.QueryString["tag"];
+    var allNodesWithTags = Model.AncestorOrSelf().DescendantsOrSelf().Where("tags != \"\"");
+}
+
+@foreach (var node in allNodesWithTags)
+{
+    string[] tags = node.tags.ToString().Split(',');
+    
+    if (tags.Contains(tagToFind))
+    {
+            <a href="@node.Url">@node.Name</a><br />
+    }
+}

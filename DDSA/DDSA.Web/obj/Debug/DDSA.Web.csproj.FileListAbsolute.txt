@@ -23,7 +23,6 @@ C:\Projects\DDSA\DDSA\DDSA.Web\bin\Umbraco.Web.UI.xml
 C:\Users\kasper.hansen\Documents\GitHub\DDSA\DDSA\DDSA.Web\bin\DDSA.Web.dll
 C:\Users\kasper.hansen\Documents\GitHub\DDSA\DDSA\DDSA.Web\bin\DDSA.Web.pdb
 C:\Users\kasper.hansen\Documents\GitHub\DDSA\DDSA\DDSA.Web\bin\DDSA.Backend.dll
-C:\Users\kasper.hansen\Documents\GitHub\DDSA\DDSA\DDSA.Web\bin\Vega.USiteBuilder.dll
 C:\Users\kasper.hansen\Documents\GitHub\DDSA\DDSA\DDSA.Web\bin\ClientDependency.Core.dll
 C:\Users\kasper.hansen\Documents\GitHub\DDSA\DDSA\DDSA.Web\bin\HtmlAgilityPack.dll
 C:\Users\kasper.hansen\Documents\GitHub\DDSA\DDSA\DDSA.Web\bin\ICSharpCode.SharpZipLib.dll

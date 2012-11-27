@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Master.master" AutoEventWireup="true" CodeBehind="TagSearchResult.master.cs" Inherits="DDSA.Web.masterpages.TagSearchResult" %>
+<%@ Import Namespace="DDSA.Backend.Business.DocTypes" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" runat="server">
+    <asp:PlaceHolder runat="server" Visible="false" ID="uiPlhTagResults">
+        
+        <asp:Label runat="server" ID="uiLblTag" /><br />
+        <asp:Repeater runat="server" ID="uiRptTagSearchResults">
+            <ItemTemplate>
+               <asp:PlaceHolder runat="server" ID="uiPlhNewsItem">
+                 <h2>Dette er en nyhed</h2>
+                 <p><%# ((TextPageDoctType)Container.DataItem).Name %></p>
+               </asp:PlaceHolder>
+
+            </ItemTemplate>    
+        </asp:Repeater>
+    </asp:PlaceHolder>
+</asp:Content>

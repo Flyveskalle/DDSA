@@ -1,22 +1,13 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="News.master.cs" Inherits="DDSA.Web.masterpages.News" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="News.master.cs" MasterPageFile="~/masterpages/Master.Master" Inherits="DDSA.Web.masterpages.News" %>
+<%@ Register TagPrefix="DDSA" TagName="TagList" Src="~/usercontrols/TextPageTags.ascx" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-         <table>
+<asp:Content runat="server" ContentPlaceHolderID="ContentPlaceHolderMain">
+        
+         <table style="display:none;">
             <%= NewsletterHtml%>
         </table>
-        </asp:ContentPlaceHolder>
-    </div>
-    </form>
-</body>
-</html>
+
+        <DDSA:TagList runat="server" ID="uiUcTagList" />
+        
+    
+    </asp:Content>

@@ -1,0 +1,92 @@
+UL.jqueryFileTree {
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	line-height: 18px;
+	padding: 0px;
+	margin: 0px;
+}
+
+UL.jqueryFileTree LI {
+	list-style: none;
+	padding: 0px;
+	padding-left: 20px;
+	margin: 0px;
+	white-space: nowrap;
+}
+
+UL.jqueryFileTree A {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	padding: 0px 2px;
+}
+
+UL.jqueryFileTree A:hover {
+	background: #BDF;
+}
+
+/* Core Styles */
+.jqueryFileTree LI.directory { background: url(/umbraco/plugins/umediapicker/images/directory.png) left top no-repeat; }
+.jqueryFileTree LI.expanded { background: url(/umbraco/plugins/umediapicker/images/folder_open.png) left top no-repeat; }
+.jqueryFileTree LI.file { background: url(/umbraco/plugins/umediapicker/images/file.png) left top no-repeat; }
+.jqueryFileTree LI.wait { background: url(/umbraco/plugins/umediapicker/images/spinner.gif) left top no-repeat; }
+/* File Extensions*/
+.jqueryFileTree LI.ext_3gp { background: url(/umbraco/plugins/umediapicker/images/film.png) left top no-repeat; }
+.jqueryFileTree LI.ext_afp { background: url(/umbraco/plugins/umediapicker/images/code.png) left top no-repeat; }
+.jqueryFileTree LI.ext_afpa { background: url(/umbraco/plugins/umediapicker/images/code.png) left top no-repeat; }
+.jqueryFileTree LI.ext_asp { background: url(/umbraco/plugins/umediapicker/images/code.png) left top no-repeat; }
+.jqueryFileTree LI.ext_aspx { background: url(/umbraco/plugins/umediapicker/images/code.png) left top no-repeat; }
+.jqueryFileTree LI.ext_avi { background: url(/umbraco/plugins/umediapicker/images/film.png) left top no-repeat; }
+.jqueryFileTree LI.ext_bat { background: url(/umbraco/plugins/umediapicker/images/application.png) left top no-repeat; }
+.jqueryFileTree LI.ext_bmp { background: url(/umbraco/plugins/umediapicker/images/picture.png) left top no-repeat; }
+.jqueryFileTree LI.ext_c { background: url(/umbraco/plugins/umediapicker/images/code.png) left top no-repeat; }
+.jqueryFileTree LI.ext_cfm { background: url(/umbraco/plugins/umediapicker/images/code.png) left top no-repeat; }
+.jqueryFileTree LI.ext_cgi { background: url(/umbraco/plugins/umediapicker/images/code.png) left top no-repeat; }
+.jqueryFileTree LI.ext_com { background: url(/umbraco/plugins/umediapicker/images/application.png) left top no-repeat; }
+.jqueryFileTree LI.ext_cpp { background: url(/umbraco/plugins/umediapicker/images/code.png) left top no-repeat; }
+.jqueryFileTree LI.ext_css { background: url(/umbraco/plugins/umediapicker/images/css.png) left top no-repeat; }
+.jqueryFileTree LI.ext_doc { background: url(/umbraco/plugins/umediapicker/images/doc.png) left top no-repeat; }
+.jqueryFileTree LI.ext_exe { background: url(/umbraco/plugins/umediapicker/images/application.png) left top no-repeat; }
+.jqueryFileTree LI.ext_gif { background: url(/umbraco/plugins/umediapicker/images/picture.png) left top no-repeat; }
+.jqueryFileTree LI.ext_fla { background: url(/umbraco/plugins/umediapicker/images/flash.png) left top no-repeat; }
+.jqueryFileTree LI.ext_h { background: url(/umbraco/plugins/umediapicker/images/code.png) left top no-repeat; }
+.jqueryFileTree LI.ext_htm { background: url(/umbraco/plugins/umediapicker/images/html.png) left top no-repeat; }
+.jqueryFileTree LI.ext_html { background: url(/umbraco/plugins/umediapicker/images/html.png) left top no-repeat; }
+.jqueryFileTree LI.ext_jar { background: url(/umbraco/plugins/umediapicker/images/java.png) left top no-repeat; }
+.jqueryFileTree LI.ext_jpg { background: url(/umbraco/plugins/umediapicker/images/picture.png) left top no-repeat; }
+.jqueryFileTree LI.ext_jpeg { background: url(/umbraco/plugins/umediapicker/images/picture.png) left top no-repeat; }
+.jqueryFileTree LI.ext_js { background: url(/umbraco/plugins/umediapicker/images/script.png) left top no-repeat; }
+.jqueryFileTree LI.ext_lasso { background: url(/umbraco/plugins/umediapicker/images/code.png) left top no-repeat; }
+.jqueryFileTree LI.ext_log { background: url(/umbraco/plugins/umediapicker/images/txt.png) left top no-repeat; }
+.jqueryFileTree LI.ext_m4p { background: url(/umbraco/plugins/umediapicker/images/music.png) left top no-repeat; }
+.jqueryFileTree LI.ext_m4v { background: url(/umbraco/plugins/umediapicker/images/film.png) left top no-repeat; }
+.jqueryFileTree LI.ext_mov { background: url(/umbraco/plugins/umediapicker/images/film.png) left top no-repeat; }
+.jqueryFileTree LI.ext_mp3 { background: url(/umbraco/plugins/umediapicker/images/music.png) left top no-repeat; }
+.jqueryFileTree LI.ext_mp4 { background: url(/umbraco/plugins/umediapicker/images/film.png) left top no-repeat; }
+.jqueryFileTree LI.ext_mpg { background: url(/umbraco/plugins/umediapicker/images/film.png) left top no-repeat; }
+.jqueryFileTree LI.ext_mpeg { background: url(/umbraco/plugins/umediapicker/images/film.png) left top no-repeat; }
+.jqueryFileTree LI.ext_ogg { background: url(/umbraco/plugins/umediapicker/images/music.png) left top no-repeat; }
+.jqueryFileTree LI.ext_pcx { background: url(/umbraco/plugins/umediapicker/images/picture.png) left top no-repeat; }
+.jqueryFileTree LI.ext_pdf { background: url(/umbraco/plugins/umediapicker/images/pdf.png) left top no-repeat; }
+.jqueryFileTree LI.ext_php { background: url(/umbraco/plugins/umediapicker/images/php.png) left top no-repeat; }
+.jqueryFileTree LI.ext_png { background: url(/umbraco/plugins/umediapicker/images/picture.png) left top no-repeat; }
+.jqueryFileTree LI.ext_ppt { background: url(/umbraco/plugins/umediapicker/images/ppt.png) left top no-repeat; }
+.jqueryFileTree LI.ext_psd { background: url(/umbraco/plugins/umediapicker/images/psd.png) left top no-repeat; }
+.jqueryFileTree LI.ext_pl { background: url(/umbraco/plugins/umediapicker/images/script.png) left top no-repeat; }
+.jqueryFileTree LI.ext_py { background: url(/umbraco/plugins/umediapicker/images/script.png) left top no-repeat; }
+.jqueryFileTree LI.ext_rb { background: url(/umbraco/plugins/umediapicker/images/ruby.png) left top no-repeat; }
+.jqueryFileTree LI.ext_rbx { background: url(/umbraco/plugins/umediapicker/images/ruby.png) left top no-repeat; }
+.jqueryFileTree LI.ext_rhtml { background: url(/umbraco/plugins/umediapicker/images/ruby.png) left top no-repeat; }
+.jqueryFileTree LI.ext_rpm { background: url(/umbraco/plugins/umediapicker/images/linux.png) left top no-repeat; }
+.jqueryFileTree LI.ext_ruby { background: url(/umbraco/plugins/umediapicker/images/ruby.png) left top no-repeat; }
+.jqueryFileTree LI.ext_sql { background: url(/umbraco/plugins/umediapicker/images/db.png) left top no-repeat; }
+.jqueryFileTree LI.ext_swf { background: url(/umbraco/plugins/umediapicker/images/flash.png) left top no-repeat; }
+.jqueryFileTree LI.ext_tif { background: url(/umbraco/plugins/umediapicker/images/picture.png) left top no-repeat; }
+.jqueryFileTree LI.ext_tiff { background: url(/umbraco/plugins/umediapicker/images/picture.png) left top no-repeat; }
+.jqueryFileTree LI.ext_txt { background: url(/umbraco/plugins/umediapicker/images/txt.png) left top no-repeat; }
+.jqueryFileTree LI.ext_vb { background: url(/umbraco/plugins/umediapicker/images/code.png) left top no-repeat; }
+.jqueryFileTree LI.ext_wav { background: url(/umbraco/plugins/umediapicker/images/music.png) left top no-repeat; }
+.jqueryFileTree LI.ext_wmv { background: url(/umbraco/plugins/umediapicker/images/film.png) left top no-repeat; }
+.jqueryFileTree LI.ext_xls { background: url(/umbraco/plugins/umediapicker/images/xls.png) left top no-repeat; }
+.jqueryFileTree LI.ext_xml { background: url(/umbraco/plugins/umediapicker/images/code.png) left top no-repeat; }
+.jqueryFileTree LI.ext_zip { background: url(/umbraco/plugins/umediapicker/images/zip.png) left top no-repeat; }

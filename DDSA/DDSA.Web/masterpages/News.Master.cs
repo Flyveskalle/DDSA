@@ -17,6 +17,9 @@ namespace DDSA.Web.masterpages
         protected void Page_Load(object sender, EventArgs e)
         {
             NewsletterHtml = new NewsletterManager().RenderNewsletter(1158);
+            
+            TextPageDoctType current = ContentHelper.GetCurrentContent() as TextPageDoctType;
+            uiUcTagList.Tags = current.Tags.Split(',').ToList();
         }
     }
 }
