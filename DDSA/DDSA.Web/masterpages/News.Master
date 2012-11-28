@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="News.master.cs" MasterPageFile="~/masterpages/Master.Master" Inherits="DDSA.Web.masterpages.News" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="News.master.cs" MasterPageFile="~/masterpages/Master.master" Inherits="DDSA.Web.masterpages.News" %>
 <%@ Register TagPrefix="DDSA" TagName="TagList" Src="~/usercontrols/TextPageTags.ascx" %>
 
 <asp:Content runat="server" ContentPlaceHolderID="ContentPlaceHolderMain">
@@ -8,6 +8,10 @@
         </table>
 
         <DDSA:TagList runat="server" ID="uiUcTagList" />
+        <h1 style="color:White;">
+        lalal
+        </h1>
+        
         
     
     </asp:Content>

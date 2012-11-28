@@ -1,0 +1,10 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+@{
+var newQuestion = Parameter.question;
+var newAnswer = Parameter.answer;
+
+<h3>@newQuestion</h3>
+<div>
+    @newAnswer
+</div>
+}

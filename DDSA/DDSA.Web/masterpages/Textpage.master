@@ -1,0 +1,7 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/master.master" AutoEventWireup="true" CodeBehind="Textpage.master.cs" Inherits="DDSA.Web.masterpages.Textpage" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" runat="server">
+    <%= currentPage.Description%>    
+    <h1><%= currentPage.Template%>    </h1>
+</asp:Content>

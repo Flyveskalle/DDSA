@@ -3,14 +3,36 @@
 <%@ Register Src="~/usercontrols/FrontpageNewsList.ascx" TagName="NewsList" TagPrefix="DDSA" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="../scripts/ui-lightness/jquery-ui-1.9.1.custom.css" rel="stylesheet"
+        type="text/css" />
+    <script src="../scripts/jquery-ui-1.9.1.custom.js" type="text/javascript"></script>
     <script language="javascript" type="text/javascript">
         $(document).ready(function () {
             $('#counter').countdown({
                 image: '/Images/WebGraphics/Countdown/digits.png',
                 startTime: '<%= CountDownTimes.Days %>:<%= CountDownTimes.Hours %>:<%= CountDownTimes.Minutes %>:12',
                 format: 'dd:hh:mm:ss'
-
             });
+
+            $('#testDialog').dialog({
+                autoOpen: false,
+                height: 300,
+                width: 350,
+                modal: true,
+                buttons: {
+                    Ok: function () {
+                        $(this).dialog("close");
+                    }
+                }
+            });
+
+            $('#knap')
+            .button()
+            .click(function () {
+                alert("as");
+                $('#testDialog').dialog('open');
+            });
+
         });
     </script>
     
@@ -23,16 +45,27 @@
             <span>Minutter</span>
                 <span>Sekunder</span>
     </div>
-    <div class="clear"></div>
-    <div class="frontpagenews">
-        <DDSA:NewsList runat="server" ID="uiUcNewsList" />
+    <div id="mainMenu">
+        <umbraco:Macro runat="server" Alias="MainMenu" />
     </div>
-    <asp:Repeater runat="server" ID="uiRptMedia">
+    <div class="frontpagenewslist">
+        <umbraco:Macro runat="server" Alias="FrontpageNewsList" />
+    </div>
+
+
+    
+    <input type="button" id="knap" value="Åben" />
+
+    <%--<asp:Repeater runat="server" ID="uiRptMedia">
         <ItemTemplate>
             <img src='<%# ((Media)Container.DataItem).getProperty("umbracoFile").Value %>' alt="<%# ((Media)Container.DataItem).Text %>" /><br />
         </ItemTemplate>
-    </asp:Repeater>
-    <umbraco:Macro runat="server" Alias="Servicemenu" /><br />
+    </asp:Repeater>--%>
+    
 
-    <umbraco:Macro runat="server" Alias="SearchTags" />
+    <%--<umbraco:Macro runat="server" Alias="SearchTags" />--%>
+
+    <div id="testDialog" style="border:20px solid red;width:400px;">
+        <umbraco:Macro ID="Macro1" runat="server" Alias="Servicemenu" /><br />
+    </div>
 </asp:Content>

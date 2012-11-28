@@ -11,13 +11,15 @@ Mangler:
 	IsActive?
 
  - Tags
-	Search by tags (Hyperlink onclick)
-	SearchTagsResultPage
+	Search by tags (Button onclick) - OK
+	SearchTagsResultPage - OK
 		Sidetyper m. Tags
-			- Textpage
-			- Nominerede
-			- Media*
+			- Textpage - OK
+			- Nominerede - OK
 			
+ - Forside
+	Første nyhed er speciel - OK
+
 
  - Mail
 	Velkomst mail template

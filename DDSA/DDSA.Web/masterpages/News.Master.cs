@@ -12,14 +12,17 @@ namespace DDSA.Web.masterpages
 {
     public partial class News : TemplateBase<TextPageDoctType>
     {
-
+        public TextPageDoctType current;
         public string NewsletterHtml = "";
         protected void Page_Load(object sender, EventArgs e)
         {
             NewsletterHtml = new NewsletterManager().RenderNewsletter(1158);
             
-            TextPageDoctType current = ContentHelper.GetCurrentContent() as TextPageDoctType;
+            current = ContentHelper.GetCurrentContent() as TextPageDoctType;
+            uiUcTagList.Visible = current.Name != "FAQ";
             uiUcTagList.Tags = current.Tags.Split(',').ToList();
+
+            ss.Attributes["test"] = current.Description;
         }
     }
 }

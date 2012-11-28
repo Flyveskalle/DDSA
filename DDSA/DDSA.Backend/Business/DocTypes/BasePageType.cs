@@ -18,7 +18,7 @@ namespace DDSA.Backend.Business.DocTypes
         [DocumentTypeProperty(UmbracoPropertyType.SimpleEditor, Name = "Meta Description", Tab = CmsTabs.SEO)]
         public string MetaDescription { get; set; }
 
-        [DocumentTypeProperty(UmbracoPropertyType.TrueFalse, Name = "Vis i menu?")]
+        [DocumentTypeProperty(UmbracoPropertyType.TrueFalse, Name = "Skjul i menu?")]
         public bool umbracoNaviHide { get; set; }
     }
 }

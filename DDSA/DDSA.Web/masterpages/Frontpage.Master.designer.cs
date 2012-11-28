@@ -13,21 +13,12 @@ namespace DDSA.Web.masterpages {
     public partial class Frontpage {
         
         /// <summary>
-        /// uiUcNewsList control.
+        /// Macro1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DDSA.Web.usercontrols.FrontpageNewsList uiUcNewsList;
-        
-        /// <summary>
-        /// uiRptMedia control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater uiRptMedia;
+        protected global::umbraco.presentation.templateControls.Macro Macro1;
     }
 }

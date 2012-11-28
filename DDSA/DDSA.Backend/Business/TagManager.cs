@@ -17,7 +17,7 @@ namespace DDSA.Backend.Business
                 List<DocumentTypeBase> results = new List<DocumentTypeBase>();
 
                 List<TextPageDoctType> news = new DualShockManager().GetNews().Where(x => x.Tags.ToLower().Contains(tag)).ToList(); ;
-                List<NominiesDocType> artists = new DualShockManager().GetNominies(1).Where(x => x.Tags.ToLower().Contains(tag)).ToList();
+                List<NominiesDocType> artists = new DualShockManager().GetNominies(new DualShockManager().SimpleSettingsPageDocType.NominiesFolderId).Where(x => x.Tags.ToLower().Contains(tag)).ToList();
 
                 results.AddRange(news);
                 results.AddRange(artists);
